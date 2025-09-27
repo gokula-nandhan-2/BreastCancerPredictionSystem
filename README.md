@@ -3,7 +3,7 @@
 ## 📌 Overview  
 This project was developed as part of the **Machine Learning and Data Mining (5DATA002W.2)** module at the University of Westminster.  
 
-The **Breast Cancer Prediction System** applies machine learning algorithms to predict the likelihood of breast cancer based on diagnostic features. The project was implemented in **Google Colab notebooks** and includes preprocessing, model training, evaluation, and reflection.  
+The **Breast Cancer Prediction System** applies machine learning algorithms to predict the likelihood of breast cancer based on diagnostic features. The project was implemented in **Google Colab Notebooks** and includes preprocessing, model training, evaluation, and reflection.  
 
 ---
 
