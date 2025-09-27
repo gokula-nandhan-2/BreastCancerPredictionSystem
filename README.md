@@ -30,12 +30,34 @@ breast-cancer-prediction-system/
 ---
 
 ## 📊 Dataset  
-- **Name:** 5DATA002W.2 Coursework Dataset (25012025v6.0)  
-- **Type:** Tabular dataset (Breast Cancer diagnostic data)  
-- **Features:** Includes medical/clinical attributes such as cell properties, texture, radius, smoothness, compactness, symmetry, etc.  
-- **Target Variable:** Diagnosis (Benign / Malignant)  
+- **File:** `5DATA002W.2_Coursework_Dataset_25012025v6.0.csv`  
+- **Format:** CSV (Comma-Separated Values)  
+- **Rows:** 4,024  
+- **Columns:** 18  
+- **Type:** Breast cancer diagnostic and clinical dataset  
 
-This dataset was provided specifically for the coursework and was used to train and evaluate the predictive models.  
+### 📝 Features  
+1. **Patient_ID** – Unique identifier for each patient  
+2. **Month_of_Birth** – Patient’s month of birth (numeric)  
+3. **Age** – Age of the patient (years)  
+4. **Sex** – Patient’s gender  
+5. **Occupation** – Profession of the patient  
+6. **T_Stage** – Tumor size/extent (T1, T2, T3…)  
+7. **N_Stage** – Lymph node involvement (N1, N2, N3…)  
+8. **6th_Stage** – Stage according to AJCC 6th edition  
+9. **Differentiated** – Tumor differentiation (well, moderate, poorly)  
+10. **Grade** – Tumor grade (1–3)  
+11. **A_Stage** – Anatomical stage  
+12. **Tumor_Size** – Size of tumor (mm)  
+13. **Estrogen_Status** – ER status (Positive / Negative)  
+14. **Progesterone_Status** – PR status (Positive / Negative)  
+15. **Regional_Node_Examined** – Number of regional nodes examined  
+16. **Reginol_Node_Positive** – Number of regional nodes positive  
+
+### 🎯 Target Variables  
+- **Survival_Months** – Patient survival time in months (**Regression task**)  
+- **Mortality_Status** – Whether the patient is **Alive** or **Dead** (**Classification task**)  
+
 
 ---
 
